@@ -117,11 +117,12 @@ ul { list-style: none; }
   position: fixed;
   top: 0; left: 0; right: 0;
   z-index: 1000;
-  padding: 0 clamp(20px,5vw,72px);
+  padding: 0 clamp(12px,4vw,72px);
   height: 72px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  overflow: hidden;
   transition: background var(--transition), box-shadow var(--transition);
 }
 #nav.scrolled {
@@ -146,7 +147,7 @@ ul { list-style: none; }
 .nav-logo .logo-text {
   display: flex; flex-direction: column; line-height: 1.2;
   overflow: hidden;
-  max-width: clamp(160px, 22vw, 280px);
+  max-width: clamp(140px, 22vw, 280px);
 }
 .nav-logo .logo-text strong {
   font-family: 'Montserrat', sans-serif;
@@ -154,12 +155,16 @@ ul { list-style: none; }
   font-weight: 700;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .nav-logo .logo-text span {
   font-size: 10px;
   font-weight: 300;
   color: var(--gold);
   letter-spacing: 1.5px;
+  white-space: nowrap;
 }
 .nav-links {
   display: flex;
@@ -192,6 +197,7 @@ ul { list-style: none; }
   font-family: 'Montserrat', sans-serif;
   font-size: 11px;
   font-weight: 700;
+  white-space: nowrap;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   cursor: pointer;
@@ -1814,6 +1820,10 @@ section {
 @media (max-width: 768px) {
   .nav-links     { display: none; }
   .hamburger     { display: flex; }
+  /* Compact nav on mobile */
+  .nav-logo .logo-text span   { display: none; }
+  .nav-logo .logo-text        { max-width: 150px; }
+  .btn-emergency              { padding: 8px 14px; font-size: 10px; gap: 6px; }
   .about-grid    { grid-template-columns: 1fr; }
   .about-visual  { order: -1; }
   .about-badge   { bottom: 10px; right: 10px; width:100px; height:100px; }
@@ -1842,15 +1852,13 @@ section {
   /* Single column stats on phones for readability */
   .stats-grid    { grid-template-columns: 1fr 1fr; }
   .stat-num      { font-size: clamp(28px,8vw,40px); }
-  .nav-logo .logo-text strong { font-size: 10px; }
-  .nav-logo .logo-text span   { display: none; }
-  .btn-emergency { font-size: 10px; padding: 8px 10px; }
+  .nav-logo .logo-text strong { font-size: 9px; }
 }
 @media (max-width: 360px) {
-  /* On very small phones hide the emergency label, keep just the number */
+  #nav { padding: 0 10px; }
+  .nav-logo .logo-text { max-width: 110px; }
   .btn-emergency .pulse-dot { display: none; }
-  #nav { padding: 0 12px; }
-  .nav-logo .logo-text { max-width: 130px; }
+  .btn-emergency { padding: 7px 10px; font-size: 9px; }
 }
 
 /* ── TOUCH DEVICES ────────────────────────────────────── */
