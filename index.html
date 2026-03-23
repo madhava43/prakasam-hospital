@@ -1,0 +1,1518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <meta name="description" content="PRAKASAM SUPER SPECIALITY HOSPITAL – Premier healthcare in Ongole, Andhra Pradesh. Advanced Medical Care, 24/7 Emergency, Expert Specialists."/>
+  <title>PRAKASAM SUPER SPECIALITY HOSPITAL | Ongole, Andhra Pradesh</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@200;300;400;500;600;700&family=Montserrat:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<!-- SCROLL PROGRESS -->
+<div id="scroll-bar"></div>
+
+<!-- ══════════════════════════════════════════════════════
+     NAV
+     ══════════════════════════════════════════════════════ -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">
+    <div class="logo-icon">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+        <rect x="8.5" y="1"  width="5" height="20" rx="2" fill="url(#ng)"/>
+        <rect x="1"   y="8.5" width="20" height="5" rx="2" fill="url(#ng)"/>
+        <defs><linearGradient id="ng" x1="0" y1="0" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stop-color="#E8C96D"/><stop offset="100%" stop-color="#C9A84C"/>
+        </linearGradient></defs>
+      </svg>
+    </div>
+    <div class="logo-text">
+      <strong>Prakasam Super Speciality Hospital</strong>
+      <span>Ongole, Andhra Pradesh</span>
+    </div>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#departments">Departments</a></li>
+    <li><a href="#doctors">Doctors</a></li>
+    <li><a href="#facilities">Facilities</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div class="nav-cta">
+    <a href="tel:08592282282" class="btn-emergency">
+      <div class="pulse-dot"></div>
+      Emergency: 08592 282282
+    </a>
+    <button class="hamburger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#about">About Us</a>
+  <a href="#departments">Departments</a>
+  <a href="#why">Why Choose Us</a>
+  <a href="#doctors">Our Doctors</a>
+  <a href="#facilities">Facilities</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contact">Contact & Appointments</a>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     01 · HERO
+     ══════════════════════════════════════════════════════ -->
+<section id="hero">
+  <div class="hero-bg">
+    <!-- Particle Canvas -->
+    <canvas id="hero-particles"></canvas>
+    <div class="hero-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <!-- Full-width animated ECG background line -->
+    <svg class="hero-ecg" viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+      <polyline class="hb-ecg-path" style="stroke-dasharray:2000;stroke-dashoffset:2000;animation:ecgFlow 3s ease-in-out infinite;"
+        points="0,40 120,40 160,40 188,8 204,72 220,10 236,70 252,40 360,40 400,40 428,18 444,62 460,5 476,75 492,40 600,40 640,40 668,8 684,72 700,10 716,70 732,40 840,40 880,40 908,18 924,62 940,5 956,75 972,40 1080,40 1120,40 1148,8 1164,72 1180,10 1196,70 1212,40 1440,40"
+        stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+    </svg>
+    <!-- Decorative animated crosses -->
+    <svg class="deco-cross-anim" style="position:absolute;top:clamp(80px,10vh,120px);right:5%;opacity:0.1;width:clamp(50px,6vw,90px);" viewBox="0 0 100 100" fill="none">
+      <rect x="40" y="5"  width="20" height="90" rx="6" fill="#C9A84C"/>
+      <rect x="5"  y="40" width="90" height="20" rx="6" fill="#C9A84C"/>
+    </svg>
+    <svg style="position:absolute;bottom:15%;left:3%;opacity:0.06;width:clamp(30px,4vw,60px);animation:floatSlow 7s ease-in-out 1s infinite;" viewBox="0 0 100 100" fill="none">
+      <rect x="40" y="5"  width="20" height="90" rx="6" fill="#C9A84C"/>
+      <rect x="5"  y="40" width="90" height="20" rx="6" fill="#C9A84C"/>
+    </svg>
+    <!-- Sparkle dots -->
+    <div class="sparkle-dot" style="top:18%;left:15%;animation-delay:0s;"></div>
+    <div class="sparkle-dot" style="top:35%;left:8%;animation-delay:0.8s;opacity:0.6;"></div>
+    <div class="sparkle-dot" style="top:60%;left:20%;animation-delay:1.6s;"></div>
+    <div class="sparkle-dot" style="top:22%;right:18%;animation-delay:0.5s;opacity:0.5;"></div>
+    <div class="sparkle-dot" style="top:55%;right:12%;animation-delay:1.2s;"></div>
+    <div class="sparkle-dot" style="top:75%;right:25%;animation-delay:2s;opacity:0.4;"></div>
+  </div>
+
+  <div class="container hero-inner">
+    <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;">
+      <div class="hero-content">
+
+        <div class="hero-badge reveal">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+            <rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#E8C96D"/>
+            <rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#E8C96D"/>
+          </svg>
+          <span>Andhra Pradesh's Premier Healthcare Destination</span>
+        </div>
+
+        <h1 class="h1 hero-title" style="margin-bottom:16px;">
+          <span class="gold-text">Prakasam</span><br/>
+          Super Speciality<br/>
+          <span style="font-size:0.82em;font-weight:200;letter-spacing:3px;opacity:0.85;">Hospital</span>
+        </h1>
+
+        <!-- Heartbeat ECG strip — sits directly under the H1 title -->
+        <div class="hb-name-wrap" style="margin-bottom:16px;">
+          <div class="hb-ecg-strip">
+            <svg class="hb-ecg-svg" viewBox="0 0 420 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <polyline class="hb-ecg-path"
+                points="0,18 40,18 55,18 62,3 66,33 70,1 74,35 78,18 115,18 130,18 137,3 141,33 145,1 149,35 153,18 190,18 205,18 212,3 216,33 220,1 224,35 228,18 265,18 280,18 287,3 291,33 295,1 299,35 303,18 340,18 355,18 362,3 366,33 370,1 374,35 378,18 420,18"/>
+            </svg>
+          </div>
+        </div>
+
+        <p class="hero-sub" id="hero-tagline" style="min-height:2em;">
+          <!-- JS typewriter fills this -->
+        </p>
+
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="#contact" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Book Appointment
+          </a>
+          <a href="#departments" class="btn-outline">
+            Explore Departments →
+          </a>
+        </div>
+      </div>
+
+      <!-- Stat pills (hidden on mobile via CSS) -->
+      <div class="hero-right reveal reveal-delay-2">
+        <div class="hero-stat-pills">
+          <div class="hero-pill">
+            <span class="num">500+</span>
+            <div class="info"><div class="lbl">Capacity</div><div class="val">Beds & ICU Units</div></div>
+          </div>
+          <div class="hero-pill">
+            <span class="num">50+</span>
+            <div class="info"><div class="lbl">Team</div><div class="val">Expert Consultants</div></div>
+          </div>
+          <div class="hero-pill">
+            <span class="num">24/7</span>
+            <div class="info"><div class="lbl">Availability</div><div class="val">Emergency Services</div></div>
+          </div>
+          <div class="hero-pill">
+            <span class="num">15+</span>
+            <div class="info"><div class="lbl">Coverage</div><div class="val">Medical Specialities</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll-hint">
+    <span>Scroll</span>
+    <div class="scroll-arrow"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     TICKER
+     ══════════════════════════════════════════════════════ -->
+<div id="ticker" aria-hidden="true">
+  <div class="ticker-track">
+    <!-- Duplicated for seamless loop -->
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Advanced Neurology</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>24/7 Emergency Care</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Expert Gastroenterology</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Robotic Surgery</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>NABH Accredited</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Precision Oncology</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>AI-Assisted Diagnostics</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Urology &amp; Nephrology</span>
+    <!-- duplicate -->
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Advanced Neurology</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>24/7 Emergency Care</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Expert Gastroenterology</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Robotic Surgery</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>NABH Accredited</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Precision Oncology</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>AI-Assisted Diagnostics</span>
+    <span class="ticker-item"><svg width="12" height="12" viewBox="0 0 12 12"><rect x="4.5" y="0.5" width="3" height="11" rx="1.5" fill="#C9A84C"/><rect x="0.5" y="4.5" width="11" height="3" rx="1.5" fill="#C9A84C"/></svg>Urology &amp; Nephrology</span>
+  </div>
+</div>
+
+<!-- ECG Section Divider -->
+<div class="section-ecg-divider" style="padding:0 clamp(20px,5vw,72px);">
+  <div class="line"></div>
+  <svg width="200" height="24" viewBox="0 0 200 24" fill="none">
+    <polyline points="0,12 20,12 28,12 33,2 36,22 39,1 42,23 45,12 60,12 68,12 73,2 76,22 79,1 82,23 85,12 100,12 108,12 113,2 116,22 119,1 122,23 125,12 140,12 148,12 153,2 156,22 159,1 162,23 165,12 180,12 200,12" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+  </svg>
+  <div class="line"></div>
+</div>
+
+<!-- ══════════════════════════════════════════════════════
+     02 · ABOUT
+     ══════════════════════════════════════════════════════ -->
+<section id="about">
+  <div class="container section-pad">
+    <div class="about-grid">
+
+      <div class="about-visual reveal">
+        <div class="about-img-frame">
+          <!-- SVG Hospital building illustration -->
+          <svg viewBox="0 0 400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop offset="0%" stop-color="#05111F"/><stop offset="100%" stop-color="#0D2A50"/></linearGradient>
+              <radialGradient id="glow" cx="50%" cy="80%" r="50%"><stop offset="0%" stop-color="#C9A84C" stop-opacity="0.12"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+            </defs>
+            <rect width="400" height="500" fill="url(#sky)"/>
+            <rect width="400" height="500" fill="url(#glow)"/>
+            <!-- Stars -->
+            <circle cx="40"  cy="40"  r="1.2" fill="white" opacity="0.5"/>
+            <circle cx="120" cy="25"  r="0.8" fill="white" opacity="0.4"/>
+            <circle cx="200" cy="15"  r="1.5" fill="#E8C96D" opacity="0.5"/>
+            <circle cx="280" cy="30"  r="0.9" fill="white" opacity="0.35"/>
+            <circle cx="350" cy="50"  r="1.2" fill="white" opacity="0.45"/>
+            <circle cx="70"  cy="80"  r="0.7" fill="white" opacity="0.3"/>
+            <circle cx="320" cy="20"  r="1.0" fill="white" opacity="0.4"/>
+            <!-- MAIN TOWER -->
+            <rect x="110" y="60" width="180" height="390" rx="3" fill="#0C1E3C"/>
+            <!-- glass grid -->
+            <g stroke="#7EB3E8" stroke-width="0.4" opacity="0.15">
+              <line x1="145" y1="60" x2="145" y2="450"/><line x1="180" y1="60" x2="180" y2="450"/>
+              <line x1="215" y1="60" x2="215" y2="450"/><line x1="250" y1="60" x2="250" y2="450"/>
+              <line x1="110" y1="100" x2="290" y2="100"/><line x1="110" y1="140" x2="290" y2="140"/>
+              <line x1="110" y1="180" x2="290" y2="180"/><line x1="110" y1="220" x2="290" y2="220"/>
+              <line x1="110" y1="260" x2="290" y2="260"/><line x1="110" y1="300" x2="290" y2="300"/>
+              <line x1="110" y1="340" x2="290" y2="340"/><line x1="110" y1="380" x2="290" y2="380"/>
+              <line x1="110" y1="420" x2="290" y2="420"/>
+            </g>
+            <!-- windows -->
+            <g opacity="0.5">
+              <rect x="118" y="68" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="142" y="68" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.7"/><rect x="166" y="68" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="190" y="68" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="214" y="68" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.5"/><rect x="238" y="68" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="262" y="68" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.4"/>
+              <rect x="118" y="108" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.4"/><rect x="142" y="108" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="166" y="108" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.55"/><rect x="190" y="108" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="214" y="108" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="238" y="108" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.35"/><rect x="262" y="108" width="18" height="22" rx="2" fill="#1A3A6A"/>
+              <rect x="118" y="148" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="142" y="148" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.5"/><rect x="166" y="148" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="190" y="148" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.6"/><rect x="214" y="148" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="238" y="148" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="262" y="148" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.45"/>
+              <rect x="118" y="188" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.35"/><rect x="142" y="188" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="166" y="188" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="190" y="188" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.4"/><rect x="214" y="188" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="238" y="188" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.3"/><rect x="262" y="188" width="18" height="22" rx="2" fill="#1A3A6A"/>
+              <rect x="118" y="228" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="142" y="228" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.45"/><rect x="166" y="228" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.3"/><rect x="190" y="228" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="214" y="228" width="18" height="22" rx="2" fill="#E8C96D" opacity="0.5"/><rect x="238" y="228" width="18" height="22" rx="2" fill="#1A3A6A"/><rect x="262" y="228" width="18" height="22" rx="2" fill="#1A3A6A"/>
+            </g>
+            <!-- top cross -->
+            <rect x="193" y="38" width="14" height="26" rx="3" fill="#C9A84C" opacity="0.9"/>
+            <rect x="182" y="47" width="36" height="10" rx="3" fill="#C9A84C" opacity="0.9"/>
+            <!-- roof band -->
+            <rect x="100" y="52" width="200" height="12" rx="2" fill="#0D2144"/>
+            <line x1="110" y1="52" x2="290" y2="52" stroke="#C9A84C" stroke-width="1.2" opacity="0.6"/>
+            <!-- left wing -->
+            <rect x="20" y="160" width="90" height="290" rx="2" fill="#091832"/>
+            <g stroke="#7EB3E8" stroke-width="0.4" opacity="0.12">
+              <line x1="50" y1="160" x2="50" y2="450"/><line x1="80" y1="160" x2="80" y2="450"/>
+              <line x1="20" y1="200" x2="110" y2="200"/><line x1="20" y1="240" x2="110" y2="240"/><line x1="20" y1="280" x2="110" y2="280"/><line x1="20" y1="320" x2="110" y2="320"/><line x1="20" y1="360" x2="110" y2="360"/><line x1="20" y1="400" x2="110" y2="400"/>
+            </g>
+            <g opacity="0.35">
+              <rect x="26" y="170" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.3"/><rect x="46" y="170" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="66" y="170" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.25"/><rect x="86" y="170" width="16" height="20" rx="1" fill="#1A3A6A"/>
+              <rect x="26" y="210" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="46" y="210" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.3"/><rect x="66" y="210" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="86" y="210" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.2"/>
+              <rect x="26" y="250" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.25"/><rect x="46" y="250" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="66" y="250" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.3"/><rect x="86" y="250" width="16" height="20" rx="1" fill="#1A3A6A"/>
+              <rect x="26" y="290" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="46" y="290" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.2"/><rect x="66" y="290" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="86" y="290" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.25"/>
+            </g>
+            <line x1="20" y1="160" x2="110" y2="160" stroke="#C9A84C" stroke-width="0.8" opacity="0.4"/>
+            <!-- right wing -->
+            <rect x="290" y="160" width="90" height="290" rx="2" fill="#091832"/>
+            <g stroke="#7EB3E8" stroke-width="0.4" opacity="0.12">
+              <line x1="320" y1="160" x2="320" y2="450"/><line x1="350" y1="160" x2="350" y2="450"/>
+              <line x1="290" y1="200" x2="380" y2="200"/><line x1="290" y1="240" x2="380" y2="240"/><line x1="290" y1="280" x2="380" y2="280"/><line x1="290" y1="320" x2="380" y2="320"/><line x1="290" y1="360" x2="380" y2="360"/><line x1="290" y1="400" x2="380" y2="400"/>
+            </g>
+            <g opacity="0.35">
+              <rect x="298" y="170" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="318" y="170" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.28"/><rect x="338" y="170" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="358" y="170" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.3"/>
+              <rect x="298" y="210" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.22"/><rect x="318" y="210" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="338" y="210" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.28"/><rect x="358" y="210" width="16" height="20" rx="1" fill="#1A3A6A"/>
+              <rect x="298" y="250" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="318" y="250" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.3"/><rect x="338" y="250" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="358" y="250" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.25"/>
+              <rect x="298" y="290" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.25"/><rect x="318" y="290" width="16" height="20" rx="1" fill="#1A3A6A"/><rect x="338" y="290" width="16" height="20" rx="1" fill="#E8C96D" opacity="0.2"/><rect x="358" y="290" width="16" height="20" rx="1" fill="#1A3A6A"/>
+            </g>
+            <line x1="290" y1="160" x2="380" y2="160" stroke="#C9A84C" stroke-width="0.8" opacity="0.4"/>
+            <!-- entrance -->
+            <rect x="165" y="360" width="70" height="90" rx="2" fill="#112A52"/>
+            <rect x="158" y="354" width="84" height="10" rx="2" fill="#0D2144"/>
+            <line x1="158" y1="354" x2="242" y2="354" stroke="#C9A84C" stroke-width="1.2" opacity="0.7"/>
+            <rect x="172" y="370" width="26" height="80" rx="1" fill="#1E4A7A" opacity="0.7"/>
+            <rect x="202" y="370" width="26" height="80" rx="1" fill="#1E4A7A" opacity="0.7"/>
+            <line x1="196" y1="408" x2="196" y2="415" stroke="#C9A84C" stroke-width="1.2" opacity="0.6"/>
+            <line x1="204" y1="408" x2="204" y2="415" stroke="#C9A84C" stroke-width="1.2" opacity="0.6"/>
+            <!-- ground -->
+            <rect x="0" y="446" width="400" height="54" fill="#060E1D"/>
+            <line x1="0" y1="446" x2="400" y2="446" stroke="#C9A84C" stroke-width="0.5" opacity="0.2"/>
+            <!-- ground glow -->
+            <ellipse cx="200" cy="452" rx="160" ry="8" fill="#C9A84C" opacity="0.06"/>
+          </svg>
+        </div>
+
+        <div class="about-badge">
+          <span class="big">25+</span>
+          <span class="sm">Years of<br/>Excellence</span>
+        </div>
+      </div>
+
+      <div class="about-text">
+        <p class="label reveal">About the Hospital</p>
+        <h2 class="h2 reveal reveal-delay-1">
+          Healing Lives with<br/>
+          <span class="gold-text">Precision & Compassion</span>
+        </h2>
+        <p class="body-lg reveal reveal-delay-2">
+          Prakasam Super Speciality Hospital has been Ongole's most trusted healthcare destination for over two decades. We combine world-class medical expertise with compassionate, patient-centred care — delivering outcomes that rival the finest institutions in India.
+        </p>
+        <div class="about-features">
+          <div class="about-feature reveal reveal-delay-2">
+            <div class="icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+            <div class="text">
+              <strong>State-of-the-Art Diagnostics</strong>
+              <span>3T MRI, 128-slice CT, digital X-ray, advanced pathology lab</span>
+            </div>
+          </div>
+          <div class="about-feature reveal reveal-delay-3">
+            <div class="icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <div class="text">
+              <strong>Fellowship-Trained Specialists</strong>
+              <span>Consultants trained at India's premier medical institutes</span>
+            </div>
+          </div>
+          <div class="about-feature reveal reveal-delay-4">
+            <div class="icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="text">
+              <strong>NABH Accredited Quality</strong>
+              <span>Rigorous safety protocols, infection control, and patient safety standards</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     03 · STATS
+     ══════════════════════════════════════════════════════ -->
+<section id="stats">
+  <div class="container section-pad">
+    <div class="stats-grid">
+      <div class="stat-item reveal"><span class="stat-num" data-target="500" data-suffix="+">500+</span><div class="stat-lbl">Beds</div></div>
+      <div class="stat-item reveal reveal-delay-1"><span class="stat-num" data-target="50" data-suffix="+">50+</span><div class="stat-lbl">Specialist Doctors</div></div>
+      <div class="stat-item reveal reveal-delay-2"><span class="stat-num" data-target="25" data-suffix="+">25+</span><div class="stat-lbl">Years of Service</div></div>
+      <div class="stat-item reveal reveal-delay-3"><span class="stat-num" data-target="15" data-suffix="+">15+</span><div class="stat-lbl">Specialities</div></div>
+      <div class="stat-item reveal reveal-delay-4"><span class="stat-num" data-target="100" data-suffix="K+">100K+</span><div class="stat-lbl">Patients Treated</div></div>
+      <div class="stat-item reveal reveal-delay-5"><span class="stat-num" data-target="99" data-suffix="%">99%</span><div class="stat-lbl">Patient Satisfaction</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     04 · DEPARTMENTS
+     ══════════════════════════════════════════════════════ -->
+<section id="departments">
+  <div class="container section-pad">
+    <div class="dept-header">
+      <p class="label">Medical Specialities</p>
+      <h2 class="h2 reveal">Departments of <span class="gold-text">Excellence</span></h2>
+      <p class="body-sm reveal reveal-delay-1" style="max-width:520px;margin:14px auto 0;">Every department is led by senior consultants and supported by cutting-edge technology, ensuring world-class care at every step.</p>
+    </div>
+    <div class="dept-grid">
+
+      <div class="dept-card reveal">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <path d="M9.5 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/><path d="M14.5 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5z"/>
+            <path d="M9 7c0 3 1 5 3 5s3-2 3-5"/><path d="M12 12v10"/><path d="M9 18h6"/>
+          </svg>
+        </div>
+        <div class="dept-name">Neurology</div>
+        <div class="dept-desc">Brain, spine &amp; nerve disorders — stroke, epilepsy, Parkinson's, migraines</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-1">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/>
+          </svg>
+        </div>
+        <div class="dept-name">Cardiology</div>
+        <div class="dept-desc">Heart disease, angioplasty, bypass surgery, cardiac diagnostics</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-2">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <ellipse cx="12" cy="12" rx="4" ry="8"/><path d="M12 4C8 4 4 8 4 12s4 8 8 8"/><path d="M12 4c4 0 8 4 8 8s-4 8-8 8"/>
+          </svg>
+        </div>
+        <div class="dept-name">Gastroenterology</div>
+        <div class="dept-desc">GI tract, liver, pancreas, colonoscopy, ERCP, advanced endoscopy</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-3">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <path d="M12 22C6.48 22 2 17.52 2 12S6.48 2 12 2s10 4.48 10 10-4.48 10-10 10z"/>
+            <path d="M12 8v4l3 3"/>
+          </svg>
+        </div>
+        <div class="dept-name">Urology</div>
+        <div class="dept-desc">Kidney stones, prostate, bladder, robotic urological surgeries</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-1">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/>
+          </svg>
+        </div>
+        <div class="dept-name">General Surgery</div>
+        <div class="dept-desc">Laparoscopic, hernia, appendix, gallbladder, minimally invasive procedures</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-2">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0016.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 002 8.5c0 2.3 1.5 4.05 3 5.5l7 7 7-7z"/>
+          </svg>
+        </div>
+        <div class="dept-name">Oncology</div>
+        <div class="dept-desc">Cancer detection, chemotherapy, radiation, surgical oncology, palliative care</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-3">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+          </svg>
+        </div>
+        <div class="dept-name">Orthopaedics</div>
+        <div class="dept-desc">Joint replacement, spine surgery, sports injuries, fracture management</div>
+      </div>
+
+      <div class="dept-card reveal">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <circle cx="12" cy="8" r="4"/><path d="M6 20v-2a6 6 0 0112 0v2"/>
+          </svg>
+        </div>
+        <div class="dept-name">General Medicine</div>
+        <div class="dept-desc">Diabetes, hypertension, infections, chronic disease management</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-1">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <path d="M9 12h6M12 9v6"/><circle cx="12" cy="12" r="10"/>
+          </svg>
+        </div>
+        <div class="dept-name">Critical Care</div>
+        <div class="dept-desc">Level III ICU, NICU, PICU — round-the-clock intensivist coverage</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-2">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/>
+          </svg>
+        </div>
+        <div class="dept-name">Nephrology</div>
+        <div class="dept-desc">Kidney disorders, dialysis, transplant workups, CKD management</div>
+      </div>
+
+      <div class="dept-card reveal reveal-delay-3">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <circle cx="12" cy="12" r="3"/><path d="M19.07 4.93L17.66 6.34M22 12h-2M19.07 19.07l-1.41-1.41M12 22v-2M4.93 19.07l1.41-1.41M2 12h2M4.93 4.93l1.41 1.41"/>
+          </svg>
+        </div>
+        <div class="dept-name">Pulmonology</div>
+        <div class="dept-desc">Asthma, COPD, lung infections, bronchoscopy, sleep disorders</div>
+      </div>
+
+      <div class="dept-card reveal">
+        <div class="dept-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round">
+            <path d="M12 5a7 7 0 00-7 7v4h14v-4a7 7 0 00-7-7z"/><rect x="9" y="16" width="6" height="5" rx="1"/>
+          </svg>
+        </div>
+        <div class="dept-name">ENT</div>
+        <div class="dept-desc">Ear, nose &amp; throat surgery, hearing restoration, sinus procedures</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     05 · WHY CHOOSE US
+     ══════════════════════════════════════════════════════ -->
+<section id="why">
+  <div class="container section-pad">
+    <div class="why-grid">
+      <div>
+        <p class="label reveal">Why Prakasam Super Speciality Hospital</p>
+        <h2 class="h2 reveal reveal-delay-1" style="margin-bottom:32px;">
+          Where Excellence<br/>
+          <span class="gold-text">Meets Compassion</span>
+        </h2>
+        <div class="why-list">
+          <div class="why-item reveal reveal-delay-1">
+            <span class="why-num">01</span>
+            <div>
+              <h4>Advanced Technology</h4>
+              <p>3T MRI, 128-slice CT scanner, robotic surgery systems, AI-assisted diagnostics, digital pathology — every tool needed to deliver precision care.</p>
+            </div>
+          </div>
+          <div class="why-item reveal reveal-delay-2">
+            <span class="why-num">02</span>
+            <div>
+              <h4>Fellowship-Trained Consultants</h4>
+              <p>Each specialist holds advanced training from AIIMS, NIMHANS, CMC Vellore, and other premier institutions. Experience you can trust.</p>
+            </div>
+          </div>
+          <div class="why-item reveal reveal-delay-3">
+            <span class="why-num">03</span>
+            <div>
+              <h4>24 × 7 Emergency Response</h4>
+              <p>Dedicated trauma bay, cardiac catheterisation lab on standby, neurosurgery team, and ambulance fleet — always on call, always ready.</p>
+            </div>
+          </div>
+          <div class="why-item reveal reveal-delay-4">
+            <span class="why-num">04</span>
+            <div>
+              <h4>Transparent &amp; Affordable Care</h4>
+              <p>Cashless facility for 200+ insurance networks, government scheme empanelment, clear pricing — quality healthcare within reach of all.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Orbital visual -->
+      <div class="why-visual reveal reveal-delay-2" style="display:flex;align-items:center;justify-content:center;">
+        <div style="position:relative;width:clamp(280px,35vw,420px);height:clamp(280px,35vw,420px);">
+          <!-- Rings -->
+          <div style="position:absolute;inset:0;border-radius:50%;border:1px solid rgba(201,168,76,0.12);"></div>
+          <div style="position:absolute;inset:30px;border-radius:50%;border:1px dashed rgba(201,168,76,0.1);"></div>
+          <div style="position:absolute;inset:60px;border-radius:50%;border:1px solid rgba(201,168,76,0.08);"></div>
+          <!-- Centre -->
+          <div class="why-center-circle">
+            <div class="gold-text big serif">25+</div>
+            <div class="sm">Years</div>
+          </div>
+          <!-- Orbit items -->
+          <div class="orbit-item" style="top:0;left:50%;transform:translate(-50%,-50%);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            <span>Diagnostics</span>
+          </div>
+          <div class="orbit-item" style="right:0;top:50%;transform:translate(50%,-50%);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>24/7 Care</span>
+          </div>
+          <div class="orbit-item" style="bottom:0;left:50%;transform:translate(-50%,50%);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <span>Accredited</span>
+          </div>
+          <div class="orbit-item" style="left:0;top:50%;transform:translate(-50%,-50%);">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.5"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+            <span>Experts</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     06 · DOCTORS
+     ══════════════════════════════════════════════════════ -->
+<section id="doctors">
+  <div class="container section-pad">
+    <div class="doctors-header">
+      <div>
+        <p class="label reveal">Our Medical Team</p>
+        <h2 class="h2 reveal reveal-delay-1">Meet the <span class="gold-text">Specialists</span></h2>
+      </div>
+      <a href="#contact" class="btn-outline reveal" style="white-space:nowrap;">Book a Consultation →</a>
+    </div>
+    <div class="doctors-grid">
+
+      <!-- 1 -->
+      <div class="doctor-card reveal">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#0A2240,#0D3060);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#1A4A80,#0D2A52);">MH</div>
+          <span class="doctor-dept-badge">General Medicine</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. Madala Hanumantha Rao</div>
+          <div class="doctor-qual">MD (Gen Med)</div>
+          <div class="doctor-role">General Physician</div>
+          <div class="doctor-bio">Expert in diagnosing and managing a wide range of adult diseases, chronic conditions, and preventive healthcare.</div>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="doctor-card reveal reveal-delay-1">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#0A2A1A,#0D3A22);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#1A5A30,#0D3A20);">BR</div>
+          <span class="doctor-dept-badge">General Surgery</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. Banda Rakesh</div>
+          <div class="doctor-qual">MS (Gen)</div>
+          <div class="doctor-role">General &amp; Laparoscopic Surgeon</div>
+          <div class="doctor-bio">Specialist in laparoscopic, hernia, gallbladder, appendix, and minimally invasive surgical procedures.</div>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="doctor-card reveal reveal-delay-2">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#1A1A0A,#2A2A10);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#4A4A1A,#2A2A10);">AR</div>
+          <span class="doctor-dept-badge">Orthopaedics</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. R. Amarnath Reddy</div>
+          <div class="doctor-qual">D.Ortho, DNB Ortho, FIJR (USA)</div>
+          <div class="doctor-role">Bone, Joint &amp; Replacement Surgeon</div>
+          <div class="doctor-bio">USA-fellowship trained in joint replacement. Expert in knee/hip arthroplasty, sports injuries, and complex fractures.</div>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="doctor-card reveal reveal-delay-3">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#2A0A2A,#3A1040);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#5A1A6A,#3A1040);">CS</div>
+          <span class="doctor-dept-badge">Dental &amp; Implants</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. CH. Chaitanya Sree</div>
+          <div class="doctor-qual">MDS, MBA</div>
+          <div class="doctor-role">Dental Surgeon &amp; Implantologist</div>
+          <div class="doctor-bio">Advanced dental surgery, full-arch implants, cosmetic dentistry, and oral rehabilitation specialist.</div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="doctor-card reveal">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#1A0A0A,#2A1010);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#5A1A1A,#3A1010);">SM</div>
+          <span class="doctor-dept-badge">Radiation Oncology</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. D. Shankara Mahadev</div>
+          <div class="doctor-qual">MD (Radiotherapy), D.R.M.</div>
+          <div class="doctor-role">Radiation Oncologist &amp; Nuclear Medicine</div>
+          <div class="doctor-bio">Precision radiotherapy, IMRT, IGRT, and nuclear medicine diagnostics for all cancer types.</div>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="doctor-card reveal reveal-delay-1">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#0A1A2A,#102030);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#1A3A5A,#102030);">AK</div>
+          <span class="doctor-dept-badge">Physiotherapy</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. K. Anjaneya Kumar</div>
+          <div class="doctor-qual">MPT, MIAP</div>
+          <div class="doctor-role">Physiotherapist</div>
+          <div class="doctor-bio">Neuro-rehab, post-surgical recovery, sports physiotherapy, and musculoskeletal pain management specialist.</div>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="doctor-card reveal reveal-delay-2">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#0A2240,#0D3060);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#C9A84C,#9A7430);color:#08142A;">KS</div>
+          <span class="doctor-dept-badge">Neurology</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. Koonam Sanjeeva Reddy</div>
+          <div class="doctor-qual">MD, DM (Neuro)</div>
+          <div class="doctor-role">Neurologist — Head, Neck &amp; Spine</div>
+          <div class="doctor-bio">DM Neurology specialist in stroke, epilepsy, Parkinson's, headache, and complex spine &amp; neuromuscular disorders.</div>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="doctor-card reveal reveal-delay-3">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#0A2A1A,#0D3A22);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#C9A84C,#9A7430);color:#08142A;">KV</div>
+          <span class="doctor-dept-badge">Gastroenterology</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. K. Vishnuvardhan</div>
+          <div class="doctor-qual">MD, DM (Gastro)</div>
+          <div class="doctor-role">Gastroenterologist — Liver &amp; Pancreas</div>
+          <div class="doctor-bio">Advanced endoscopy, ERCP, liver disease, IBD, and hepatology specialist with DM Gastroenterology training.</div>
+        </div>
+      </div>
+
+      <!-- 9 -->
+      <div class="doctor-card reveal">
+        <div class="doctor-avatar" style="background:linear-gradient(145deg,#0A1A2A,#102030);">
+          <div class="doc-initials" style="background:linear-gradient(135deg,#C9A84C,#9A7430);color:#08142A;">SK</div>
+          <span class="doctor-dept-badge">Urology</span>
+        </div>
+        <div class="doctor-info">
+          <div class="doctor-name">Dr. S.V. Krishna Rao</div>
+          <div class="doctor-qual">MS, MCh, FMAS, FAIS</div>
+          <div class="doctor-role">Urologist — Kidney &amp; Urinary Tract</div>
+          <div class="doctor-bio">Fellowship-trained urological surgeon specialising in kidney stones, prostate, bladder, and laparoscopic urology.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     07 · FACILITIES
+     ══════════════════════════════════════════════════════ -->
+<section id="facilities">
+  <div class="container section-pad">
+    <div class="fac-header">
+      <p class="label reveal">World-Class Infrastructure</p>
+      <h2 class="h2 reveal reveal-delay-1">Our <span class="gold-text">Facilities</span></h2>
+    </div>
+    <div class="fac-bento">
+
+      <div class="fac-card large reveal">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#0D2750,#091832);"></div>
+        <svg class="fac-bg" viewBox="0 0 600 300" fill="none" xmlns="http://www.w3.org/2000/svg" style="opacity:0.15;">
+          <circle cx="300" cy="150" r="200" stroke="#C9A84C" stroke-width="0.5"/><circle cx="300" cy="150" r="140" stroke="#C9A84C" stroke-width="0.5"/><circle cx="300" cy="150" r="80" stroke="#C9A84C" stroke-width="0.5"/>
+          <line x1="100" y1="150" x2="500" y2="150" stroke="#C9A84C" stroke-width="0.5"/><line x1="300" y1="-50" x2="300" y2="350" stroke="#C9A84C" stroke-width="0.5"/>
+        </svg>
+        <div class="fac-overlay"></div>
+        <div class="content">
+          <span class="fac-tag">Diagnostics</span>
+          <h4>Advanced Imaging Centre</h4>
+          <p>3 Tesla MRI, 128-slice CT, PET-CT, digital X-ray, mammography, echocardiography — all under one roof with instant reporting.</p>
+        </div>
+      </div>
+
+      <div class="fac-card reveal reveal-delay-1">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#081E3C,#0D2A50);"></div>
+        <svg class="fac-bg" viewBox="0 0 300 300" fill="none" style="opacity:0.12;">
+          <polyline points="0,150 50,150 70,80 80,220 90,50 100,250 110,100 120,200 130,150 300,150" stroke="#C9A84C" stroke-width="1.5" fill="none"/>
+        </svg>
+        <div class="fac-overlay"></div>
+        <div class="content">
+          <span class="fac-tag">Critical Care</span>
+          <h4>Level III ICU</h4>
+          <p>80-bed ICU with 24/7 intensivist coverage, ventilators, ECMO, and continuous monitoring.</p>
+        </div>
+      </div>
+
+      <div class="fac-card reveal reveal-delay-2">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#0A1E38,#0D2540);"></div>
+        <svg class="fac-bg" viewBox="0 0 300 300" fill="none" style="opacity:0.12;">
+          <rect x="50" y="50" width="200" height="200" rx="4" stroke="#C9A84C" stroke-width="1"/><rect x="70" y="70" width="60" height="60" rx="2" fill="#C9A84C"/><rect x="170" y="70" width="60" height="60" rx="2" fill="#C9A84C"/><rect x="70" y="170" width="60" height="60" rx="2" fill="#C9A84C"/><rect x="170" y="170" width="60" height="60" rx="2" fill="#C9A84C"/>
+        </svg>
+        <div class="fac-overlay"></div>
+        <div class="content">
+          <span class="fac-tag">Surgery</span>
+          <h4>8 Modular OTs</h4>
+          <p>Laminar flow theatres, robotic surgery console, C-arm, and dedicated cardiac catheterisation lab.</p>
+        </div>
+      </div>
+
+      <div class="fac-card reveal">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#0C1E3C,#091830);"></div>
+        <div class="fac-overlay"></div>
+        <div class="content">
+          <span class="fac-tag">Pharmacy</span>
+          <h4>24-Hour Pharmacy</h4>
+          <p>In-house pharmacy stocking 5,000+ medicines, oncology drugs, and rare formulations.</p>
+        </div>
+      </div>
+
+      <div class="fac-card reveal reveal-delay-1">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#091830,#0C1E3C);"></div>
+        <div class="fac-overlay"></div>
+        <div class="content">
+          <span class="fac-tag">Blood Bank</span>
+          <h4>Licensed Blood Bank</h4>
+          <p>Component separation, apheresis, 24-hour availability — supporting complex surgeries and emergencies.</p>
+        </div>
+      </div>
+
+      <div class="fac-card reveal reveal-delay-2">
+        <div class="fac-bg" style="background:linear-gradient(135deg,#081828,#0C2040);"></div>
+        <div class="fac-overlay"></div>
+        <div class="content">
+          <span class="fac-tag">Rooms</span>
+          <h4>Premium Patient Rooms</h4>
+          <p>Suite, deluxe, and general wards — all with smart nurse-call systems and family accommodation.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     07.5 · GALLERY
+     ══════════════════════════════════════════════════════ -->
+<section id="gallery">
+  <div class="container section-pad">
+    <div class="fac-header">
+      <p class="label reveal">Inside The Hospital</p>
+      <h2 class="h2 reveal reveal-delay-1">A Glimpse of <span class="gold-text">Excellence</span></h2>
+      <p class="body-sm reveal reveal-delay-2" style="max-width:480px;margin:14px auto 0;">State-of-the-art infrastructure designed for precision care, patient comfort, and clinical excellence.</p>
+    </div>
+
+    <div class="gallery-grid">
+
+      <!-- Large: MRI Room -->
+      <div class="gallery-card gallery-large reveal">
+        <div class="gal-visual">
+          <svg viewBox="0 0 700 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="700" height="400" fill="url(#galg1)"/>
+            <defs>
+              <linearGradient id="galg1" x1="0" y1="0" x2="700" y2="400"><stop offset="0%" stop-color="#06111F"/><stop offset="100%" stop-color="#0C2240"/></linearGradient>
+              <radialGradient id="galglow1" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#1A4A80" stop-opacity="0.6"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+            </defs>
+            <!-- MRI machine glow -->
+            <ellipse cx="350" cy="200" rx="200" ry="140" fill="url(#galglow1)"/>
+            <!-- MRI tunnel rings -->
+            <ellipse cx="350" cy="200" rx="160" ry="110" stroke="#2A5A9A" stroke-width="18" fill="none" opacity="0.9"/>
+            <ellipse cx="350" cy="200" rx="140" ry="95"  stroke="#1A3A6A" stroke-width="12" fill="none" opacity="0.8"/>
+            <ellipse cx="350" cy="200" rx="120" ry="82"  stroke="#0D2A52" stroke-width="8"  fill="none" opacity="0.7"/>
+            <ellipse cx="350" cy="200" rx="100" ry="68"  stroke="#C9A84C" stroke-width="2"  fill="none" opacity="0.5"/>
+            <!-- Patient table -->
+            <rect x="200" y="190" width="300" height="20" rx="4" fill="#1A3A6A" opacity="0.7"/>
+            <rect x="240" y="170" width="220" height="22" rx="6" fill="#0D2A52" opacity="0.8"/>
+            <!-- Panel controls left -->
+            <rect x="30"  y="120" width="120" height="160" rx="8" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="42"  y="135" width="96"  height="60"  rx="4" fill="#0D2A52"/>
+            <!-- Screen glow on panel -->
+            <rect x="42" y="135" width="96" height="60" rx="4" fill="url(#sc1)" opacity="0.8"/>
+            <defs><linearGradient id="sc1" x1="42" y1="135" x2="138" y2="195" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#00B4D8" stop-opacity="0.4"/><stop offset="100%" stop-color="#0096C7" stop-opacity="0.1"/></linearGradient></defs>
+            <!-- Grid lines on screen -->
+            <line x1="42"  y1="155" x2="138" y2="155" stroke="#00B4D8" stroke-width="0.5" opacity="0.5"/>
+            <line x1="42"  y1="170" x2="138" y2="170" stroke="#00B4D8" stroke-width="0.5" opacity="0.5"/>
+            <line x1="80"  y1="135" x2="80"  y2="195" stroke="#00B4D8" stroke-width="0.5" opacity="0.5"/>
+            <line x1="100" y1="135" x2="100" y2="195" stroke="#00B4D8" stroke-width="0.5" opacity="0.5"/>
+            <!-- Buttons on panel -->
+            <circle cx="50"  cy="215" r="5" fill="#C9A84C" opacity="0.8"/>
+            <circle cx="68"  cy="215" r="5" fill="#1A5A30" opacity="0.8"/>
+            <circle cx="86"  cy="215" r="5" fill="#C9A84C" opacity="0.4"/>
+            <rect x="42" y="230" width="96" height="10" rx="2" fill="#0D2A52"/>
+            <rect x="42" y="248" width="60" height="10" rx="2" fill="#0D2A52"/>
+            <!-- Panel right -->
+            <rect x="550" y="120" width="120" height="160" rx="8" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="562" y="135" width="96"  height="60"  rx="4" fill="url(#sc2)" opacity="0.9"/>
+            <defs><linearGradient id="sc2" x1="562" y1="135" x2="658" y2="195" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#E8C96D" stop-opacity="0.3"/><stop offset="100%" stop-color="#C9A84C" stop-opacity="0.05"/></linearGradient></defs>
+            <!-- Floor reflection -->
+            <ellipse cx="350" cy="340" rx="220" ry="20" fill="#0D2A52" opacity="0.3"/>
+            <!-- Ceiling lights -->
+            <ellipse cx="200" cy="30" rx="40" ry="8" fill="#E8C96D" opacity="0.15"/>
+            <ellipse cx="350" cy="20" rx="60" ry="10" fill="#E8C96D" opacity="0.2"/>
+            <ellipse cx="500" cy="30" rx="40" ry="8" fill="#E8C96D" opacity="0.15"/>
+          </svg>
+        </div>
+        <div class="gal-overlay"></div>
+        <div class="gal-info">
+          <span class="fac-tag">Diagnostics</span>
+          <h4>3 Tesla MRI Suite</h4>
+          <p>Ultra-high-field MRI for brain, spine, cardiac, and whole-body imaging with AI-enhanced reconstruction.</p>
+        </div>
+      </div>
+
+      <!-- OT Room -->
+      <div class="gallery-card reveal reveal-delay-1">
+        <div class="gal-visual">
+          <svg viewBox="0 0 340 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="340" height="280" fill="#04101E"/>
+            <!-- OT ceiling light -->
+            <circle cx="170" cy="60"  r="55"  fill="url(#otl)" opacity="0.9"/>
+            <circle cx="170" cy="60"  r="40"  fill="#E8F4FF"   opacity="0.15"/>
+            <circle cx="170" cy="60"  r="25"  fill="#FFFFFF"   opacity="0.08"/>
+            <defs><radialGradient id="otl" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#DDEEFF" stop-opacity="0.5"/><stop offset="100%" stop-color="transparent"/></radialGradient></defs>
+            <!-- Light spokes -->
+            <g stroke="#C9A84C" stroke-width="1" opacity="0.2">
+              <line x1="170" y1="60" x2="130" y2="20"/><line x1="170" y1="60" x2="210" y2="20"/>
+              <line x1="170" y1="60" x2="115" y2="60"/><line x1="170" y1="60" x2="225" y2="60"/>
+              <line x1="170" y1="60" x2="130" y2="100"/><line x1="170" y1="60" x2="210" y2="100"/>
+            </g>
+            <!-- OT table -->
+            <rect x="100" y="140" width="140" height="28" rx="4" fill="#1A3A6A"/>
+            <rect x="120" y="115" width="100" height="28" rx="6" fill="#0D2A52"/>
+            <rect x="90"  y="168" width="20"  height="60" rx="3" fill="#0A1E38"/>
+            <rect x="230" y="168" width="20"  height="60" rx="3" fill="#0A1E38"/>
+            <!-- Monitor -->
+            <rect x="240" y="100" width="72" height="52" rx="4" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="244" y="104" width="64" height="40" rx="2" fill="#001020"/>
+            <!-- ECG trace on monitor -->
+            <polyline points="248,124 256,124 260,112 264,136 268,108 272,130 276,124 308,124" stroke="#00E676" stroke-width="1.5" fill="none" opacity="0.9"/>
+            <!-- Anesthesia machine left -->
+            <rect x="20"  y="90"  width="52" height="130" rx="4" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="26"  y="98"  width="40" height="28"  rx="2" fill="#001828"/>
+            <circle cx="46" cy="148" r="12" fill="#0A1E38" stroke="#C9A84C" stroke-width="1" opacity="0.7"/>
+            <circle cx="46" cy="148" r="6"  fill="#C9A84C" opacity="0.3"/>
+            <!-- Floor glow -->
+            <ellipse cx="170" cy="270" rx="130" ry="12" fill="#1A3A6A" opacity="0.2"/>
+          </svg>
+        </div>
+        <div class="gal-overlay"></div>
+        <div class="gal-info">
+          <span class="fac-tag">Surgery</span>
+          <h4>Modular Operation Theatre</h4>
+          <p>Laminar flow OT with real-time monitoring, C-arm imaging, and robotic assist systems.</p>
+        </div>
+      </div>
+
+      <!-- ICU -->
+      <div class="gallery-card reveal reveal-delay-2">
+        <div class="gal-visual">
+          <svg viewBox="0 0 340 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="340" height="280" fill="#04101E"/>
+            <!-- Ambient -->
+            <rect width="340" height="280" fill="url(#icug)"/>
+            <defs><linearGradient id="icug" x1="0" y1="0" x2="340" y2="280"><stop offset="0%" stop-color="#0A1E38"/><stop offset="100%" stop-color="#04101E"/></linearGradient></defs>
+            <!-- ICU bed -->
+            <rect x="60"  y="170" width="220" height="20" rx="4" fill="#1A3A6A"/>
+            <rect x="80"  y="148" width="180" height="24" rx="5" fill="#0D2A52"/>
+            <!-- Bed rails -->
+            <rect x="55"  y="148" width="8"   height="42" rx="2" fill="#0A1E38"/>
+            <rect x="277" y="148" width="8"   height="42" rx="2" fill="#0A1E38"/>
+            <!-- Monitors row -->
+            <rect x="30"  y="60" width="80" height="60" rx="4" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="34"  y="64" width="72" height="48" rx="2" fill="#001020"/>
+            <polyline points="38,88 46,88 50,72 54,104 58,68 62,96 66,88 102,88" stroke="#00E676" stroke-width="1.5" fill="none"/>
+            <!-- Second monitor -->
+            <rect x="130" y="60" width="80" height="60" rx="4" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="134" y="64" width="72" height="48" rx="2" fill="#001020"/>
+            <polyline points="138,88 148,80 158,96 164,84 170,88 202,88" stroke="#F6B93B" stroke-width="1.5" fill="none"/>
+            <!-- Third monitor -->
+            <rect x="230" y="60" width="80" height="60" rx="4" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="234" y="64" width="72" height="48" rx="2" fill="#001020"/>
+            <polyline points="238,88 246,88 252,76 258,100 264,82 268,88 306,88" stroke="#E74C3C" stroke-width="1.5" fill="none"/>
+            <!-- IV stand -->
+            <line x1="290" y1="50" x2="290" y2="190" stroke="#2A4A7A" stroke-width="2"/>
+            <line x1="270" y1="55" x2="310" y2="55" stroke="#2A4A7A" stroke-width="2"/>
+            <rect x="280" y="56" width="20" height="40" rx="3" fill="#1A3A6A" opacity="0.6"/>
+            <!-- Monitor stands -->
+            <line x1="70"  y1="120" x2="70"  y2="160" stroke="#1A3A6A" stroke-width="1.5"/>
+            <line x1="170" y1="120" x2="170" y2="160" stroke="#1A3A6A" stroke-width="1.5"/>
+            <line x1="270" y1="120" x2="270" y2="160" stroke="#1A3A6A" stroke-width="1.5"/>
+            <!-- Floor -->
+            <rect x="0" y="190" width="340" height="90" fill="#030C18"/>
+            <ellipse cx="170" cy="196" rx="140" ry="8" fill="#1A3A6A" opacity="0.15"/>
+            <!-- Status lights -->
+            <circle cx="38"  cy="106" r="3" fill="#00E676" opacity="0.9"/>
+            <circle cx="138" cy="106" r="3" fill="#F6B93B" opacity="0.9"/>
+            <circle cx="238" cy="106" r="3" fill="#00B4D8" opacity="0.9"/>
+          </svg>
+        </div>
+        <div class="gal-overlay"></div>
+        <div class="gal-info">
+          <span class="fac-tag">Critical Care</span>
+          <h4>Level III ICU</h4>
+          <p>Multi-parameter monitoring with ventilator support and 24-hour intensivist presence.</p>
+        </div>
+      </div>
+
+      <!-- Pharmacy -->
+      <div class="gallery-card reveal">
+        <div class="gal-visual">
+          <svg viewBox="0 0 340 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="340" height="280" fill="#04101E"/>
+            <defs><linearGradient id="phg" x1="0" y1="0" x2="340" y2="280"><stop offset="0%" stop-color="#091830"/><stop offset="100%" stop-color="#04101E"/></linearGradient></defs>
+            <rect width="340" height="280" fill="url(#phg)"/>
+            <!-- Shelves -->
+            <rect x="20"  y="40"  width="300" height="6" rx="2" fill="#1A3A6A"/>
+            <rect x="20"  y="100" width="300" height="6" rx="2" fill="#1A3A6A"/>
+            <rect x="20"  y="160" width="300" height="6" rx="2" fill="#1A3A6A"/>
+            <rect x="20"  y="220" width="300" height="6" rx="2" fill="#1A3A6A"/>
+            <!-- Medicine boxes row 1 -->
+            <rect x="28"  y="52" width="22" height="42" rx="2" fill="#1A4A8A"/><rect x="56"  y="60" width="18" height="34" rx="2" fill="#C9A84C" opacity="0.7"/><rect x="80"  y="52" width="22" height="42" rx="2" fill="#1A5A30"/><rect x="108" y="58" width="18" height="36" rx="2" fill="#5A1A1A"/><rect x="132" y="52" width="22" height="42" rx="2" fill="#1A4A8A"/><rect x="160" y="60" width="16" height="34" rx="2" fill="#C9A84C" opacity="0.6"/><rect x="182" y="52" width="22" height="42" rx="2" fill="#2A2A6A"/><rect x="210" y="58" width="18" height="36" rx="2" fill="#1A5A4A"/><rect x="234" y="52" width="22" height="42" rx="2" fill="#5A3A1A"/><rect x="262" y="60" width="18" height="34" rx="2" fill="#1A4A8A"/><rect x="286" y="52" width="24" height="42" rx="2" fill="#1A5A30"/>
+            <!-- Row 2 -->
+            <rect x="28"  y="112" width="20" height="42" rx="2" fill="#C9A84C" opacity="0.7"/><rect x="54"  y="118" width="22" height="36" rx="2" fill="#1A4A8A"/><rect x="82"  y="112" width="18" height="42" rx="2" fill="#5A1A3A"/><rect x="106" y="118" width="22" height="36" rx="2" fill="#1A5A30"/><rect x="134" y="112" width="20" height="42" rx="2" fill="#1A4A8A"/><rect x="160" y="118" width="18" height="36" rx="2" fill="#C9A84C" opacity="0.5"/><rect x="184" y="112" width="22" height="42" rx="2" fill="#2A5A2A"/><rect x="212" y="118" width="18" height="36" rx="2" fill="#5A2A1A"/><rect x="236" y="112" width="22" height="42" rx="2" fill="#1A4A8A"/><rect x="264" y="118" width="18" height="36" rx="2" fill="#C9A84C" opacity="0.65"/><rect x="288" y="112" width="22" height="42" rx="2" fill="#1A3A6A"/>
+            <!-- Row 3 -->
+            <rect x="28"  y="172" width="22" height="42" rx="2" fill="#1A5A30"/><rect x="56"  y="178" width="18" height="36" rx="2" fill="#1A4A8A"/><rect x="80"  y="172" width="22" height="42" rx="2" fill="#C9A84C" opacity="0.6"/><rect x="108" y="178" width="18" height="36" rx="2" fill="#5A1A1A"/><rect x="132" y="172" width="22" height="42" rx="2" fill="#1A3A6A"/><rect x="160" y="178" width="18" height="36" rx="2" fill="#1A5A4A"/><rect x="184" y="172" width="22" height="42" rx="2" fill="#C9A84C" opacity="0.55"/><rect x="212" y="178" width="18" height="36" rx="2" fill="#2A2A6A"/><rect x="236" y="172" width="22" height="42" rx="2" fill="#1A4A8A"/><rect x="264" y="178" width="18" height="36" rx="2" fill="#5A3A1A"/><rect x="288" y="172" width="22" height="42" rx="2" fill="#1A5A30"/>
+            <!-- Counter -->
+            <rect x="0" y="236" width="340" height="44" fill="#091830"/>
+            <rect x="0" y="233" width="340" height="5"  fill="#C9A84C" opacity="0.3"/>
+            <!-- Ceiling glow -->
+            <rect x="0" y="0" width="340" height="20" fill="#0D2A50" opacity="0.5"/>
+            <line x1="0" y1="20" x2="340" y2="20" stroke="#C9A84C" stroke-width="0.5" opacity="0.3"/>
+            <!-- Cross symbol on shelf -->
+            <rect x="158" y="44" width="4" height="16" rx="1" fill="#C9A84C" opacity="0.5"/>
+            <rect x="152" y="50" width="16" height="4" rx="1" fill="#C9A84C" opacity="0.5"/>
+          </svg>
+        </div>
+        <div class="gal-overlay"></div>
+        <div class="gal-info">
+          <span class="fac-tag">Pharmacy</span>
+          <h4>24-Hour Pharmacy</h4>
+          <p>5,000+ medicines stocked including oncology, rare drugs, and international formulations.</p>
+        </div>
+      </div>
+
+      <!-- Patient Room -->
+      <div class="gallery-card reveal reveal-delay-1">
+        <div class="gal-visual">
+          <svg viewBox="0 0 340 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="340" height="280" fill="#05111F"/>
+            <defs>
+              <linearGradient id="rmg" x1="0" y1="0" x2="340" y2="280"><stop offset="0%" stop-color="#091830"/><stop offset="100%" stop-color="#040E1C"/></linearGradient>
+              <linearGradient id="winlight" x1="0" y1="0" x2="0" y2="1" gradientUnits="objectBoundingBox"><stop offset="0%" stop-color="#E8C96D" stop-opacity="0.3"/><stop offset="100%" stop-color="transparent"/></linearGradient>
+            </defs>
+            <rect width="340" height="280" fill="url(#rmg)"/>
+            <!-- Window with light -->
+            <rect x="220" y="20" width="100" height="120" rx="4" fill="#091830" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="222" y="22" width="96"  height="116" rx="2" fill="url(#winlight)"/>
+            <line x1="270" y1="22" x2="270" y2="138" stroke="#1A3A6A" stroke-width="1" opacity="0.5"/>
+            <line x1="222" y1="80" x2="318" y2="80"  stroke="#1A3A6A" stroke-width="1" opacity="0.5"/>
+            <!-- Warm floor glow from window -->
+            <ellipse cx="270" cy="160" rx="80" ry="30" fill="#C9A84C" opacity="0.04"/>
+            <!-- Hospital bed -->
+            <rect x="20"  y="160" width="180" height="16" rx="3" fill="#1A3A6A"/>
+            <rect x="30"  y="144" width="160" height="18" rx="5" fill="#0D2A52"/>
+            <!-- Bed rails -->
+            <rect x="16"  y="144" width="6"   height="32" rx="2" fill="#0A1E38"/>
+            <rect x="198" y="144" width="6"   height="32" rx="2" fill="#0A1E38"/>
+            <!-- Pillow -->
+            <rect x="40"  y="138" width="60"  height="16" rx="4" fill="#F0F4FA" opacity="0.1"/>
+            <!-- Bedside monitor -->
+            <rect x="208" y="120" width="50" height="40" rx="3" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="211" y="123" width="44" height="30" rx="2" fill="#001020"/>
+            <polyline points="214,138 220,138 224,128 228,148 232,132 236,138 252,138" stroke="#00E676" stroke-width="1.2" fill="none"/>
+            <line x1="233" y1="120" x2="233" y2="160" stroke="#1A3A6A" stroke-width="1"/>
+            <!-- Bedside table -->
+            <rect x="10"  y="145" width="24"  height="35" rx="2" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1" opacity="0.6"/>
+            <!-- Curtain track -->
+            <rect x="0"   y="15"  width="340" height="4"  rx="2" fill="#1A3A6A" opacity="0.5"/>
+            <!-- TV on wall -->
+            <rect x="40"  y="30"  width="80"  height="50" rx="3" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="43"  y="33"  width="74"  height="44" rx="2" fill="#001428"/>
+            <!-- Floor -->
+            <rect x="0"   y="180" width="340" height="100" fill="#040E1C"/>
+            <line x1="0"  y1="180" x2="340" y2="180"       stroke="#1A3A6A" stroke-width="0.5" opacity="0.3"/>
+            <!-- Floor reflection -->
+            <ellipse cx="170" cy="185" rx="160" ry="8" fill="#1A3A6A" opacity="0.12"/>
+          </svg>
+        </div>
+        <div class="gal-overlay"></div>
+        <div class="gal-info">
+          <span class="fac-tag">Inpatient</span>
+          <h4>Premium Patient Rooms</h4>
+          <p>Suite and deluxe rooms with bedside monitoring, smart nursing call, and family lounge.</p>
+        </div>
+      </div>
+
+      <!-- Reception / Lobby -->
+      <div class="gallery-card gallery-large reveal reveal-delay-2">
+        <div class="gal-visual">
+          <svg viewBox="0 0 700 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="lobg" x1="0" y1="0" x2="700" y2="400"><stop offset="0%" stop-color="#05111F"/><stop offset="100%" stop-color="#0A1E38"/></linearGradient>
+              <radialGradient id="lobglow" cx="50%" cy="20%" r="60%"><stop offset="0%" stop-color="#C9A84C" stop-opacity="0.12"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+            </defs>
+            <rect width="700" height="400" fill="url(#lobg)"/>
+            <rect width="700" height="400" fill="url(#lobglow)"/>
+            <!-- Floor tiles -->
+            <g stroke="#1A3A6A" stroke-width="0.5" opacity="0.3">
+              <line x1="0" y1="320" x2="700" y2="320"/>
+              <line x1="0" y1="350" x2="700" y2="350"/>
+              <line x1="0" y1="380" x2="700" y2="380"/>
+              <line x1="100" y1="300" x2="100" y2="400"/><line x1="200" y1="300" x2="200" y2="400"/>
+              <line x1="300" y1="300" x2="300" y2="400"/><line x1="400" y1="300" x2="400" y2="400"/>
+              <line x1="500" y1="300" x2="500" y2="400"/><line x1="600" y1="300" x2="600" y2="400"/>
+            </g>
+            <!-- Gold floor stripe -->
+            <rect x="0" y="298" width="700" height="3" fill="#C9A84C" opacity="0.2"/>
+            <!-- Reception desk -->
+            <rect x="180" y="240" width="340" height="60"  rx="6" fill="#0D2A52"/>
+            <rect x="175" y="235" width="350" height="12"  rx="3" fill="#1A3A6A"/>
+            <line x1="175" y1="235" x2="525" y2="235" stroke="#C9A84C" stroke-width="1.5" opacity="0.6"/>
+            <!-- Screens on desk -->
+            <rect x="210" y="200" width="60" height="40" rx="3" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="213" y="203" width="54" height="32" rx="2" fill="#001020"/>
+            <rect x="430" y="200" width="60" height="40" rx="3" fill="#0A1E38" stroke="#1A3A6A" stroke-width="1"/>
+            <rect x="433" y="203" width="54" height="32" rx="2" fill="#001020"/>
+            <!-- Hospital sign on back wall -->
+            <rect x="250" y="80" width="200" height="60" rx="4" fill="#0A1E38" stroke="#C9A84C" stroke-width="1" opacity="0.7"/>
+            <rect x="268" y="97" width="8"  height="26" rx="2" fill="#C9A84C" opacity="0.8"/>
+            <rect x="254" y="108" width="36" height="8" rx="2" fill="#C9A84C" opacity="0.8"/>
+            <!-- Pillars -->
+            <rect x="80"  y="100" width="24" height="200" rx="3" fill="#0D2144"/>
+            <rect x="596" y="100" width="24" height="200" rx="3" fill="#0D2144"/>
+            <!-- Pillar gold tops -->
+            <rect x="78"  y="96"  width="28" height="8" rx="2" fill="#C9A84C" opacity="0.4"/>
+            <rect x="594" y="96"  width="28" height="8" rx="2" fill="#C9A84C" opacity="0.4"/>
+            <!-- Hanging lights -->
+            <line x1="200" y1="0" x2="200" y2="70" stroke="#C9A84C" stroke-width="1" opacity="0.3"/>
+            <ellipse cx="200" cy="72" rx="18" ry="7" fill="#E8C96D" opacity="0.3"/>
+            <line x1="350" y1="0" x2="350" y2="55" stroke="#C9A84C" stroke-width="1" opacity="0.3"/>
+            <ellipse cx="350" cy="58" rx="22" ry="8" fill="#E8C96D" opacity="0.4"/>
+            <line x1="500" y1="0" x2="500" y2="70" stroke="#C9A84C" stroke-width="1" opacity="0.3"/>
+            <ellipse cx="500" cy="72" rx="18" ry="7" fill="#E8C96D" opacity="0.3"/>
+            <!-- Seating area left -->
+            <rect x="20"  y="240" width="100" height="28" rx="4" fill="#0D2A52"/>
+            <rect x="20"  y="215" width="100" height="28" rx="4" fill="#0A1E38"/>
+            <!-- Seating right -->
+            <rect x="580" y="240" width="100" height="28" rx="4" fill="#0D2A52"/>
+            <rect x="580" y="215" width="100" height="28" rx="4" fill="#0A1E38"/>
+            <!-- People silhouettes -->
+            <circle cx="350" cy="215" r="12" fill="#1A3A6A" opacity="0.5"/>
+            <rect x="336" y="225" width="28" height="20" rx="8" fill="#1A3A6A" opacity="0.4"/>
+            <circle cx="390" cy="218" r="10" fill="#1A3A6A" opacity="0.4"/>
+            <rect x="378" y="226" width="24" height="16" rx="6" fill="#1A3A6A" opacity="0.35"/>
+          </svg>
+        </div>
+        <div class="gal-overlay"></div>
+        <div class="gal-info">
+          <span class="fac-tag">Reception</span>
+          <h4>Welcoming Main Lobby</h4>
+          <p>Elegant, air-conditioned reception with dedicated patient coordinators, multi-lingual staff, and digital queue management.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     08 · PATIENT JOURNEY
+     ══════════════════════════════════════════════════════ -->
+<section id="journey">
+  <div class="container section-pad">
+    <div class="journey-header">
+      <p class="label reveal">Simple &amp; Streamlined</p>
+      <h2 class="h2 reveal reveal-delay-1">Your Care <span class="gold-text">Journey</span></h2>
+    </div>
+    <div class="journey-steps">
+      <div class="step reveal">
+        <div class="step-num">1</div>
+        <h4>Book Appointment</h4>
+        <p>Call, WhatsApp, or use our online form to schedule with your preferred specialist.</p>
+      </div>
+      <div class="step reveal reveal-delay-1">
+        <div class="step-num">2</div>
+        <h4>Consultation</h4>
+        <p>Meet your doctor, review history, and receive a thorough examination and diagnosis.</p>
+      </div>
+      <div class="step reveal reveal-delay-2">
+        <div class="step-num">3</div>
+        <h4>Diagnostics</h4>
+        <p>On-site labs and imaging provide same-day results for swift, accurate care decisions.</p>
+      </div>
+      <div class="step reveal reveal-delay-3">
+        <div class="step-num">4</div>
+        <h4>Treatment</h4>
+        <p>Personalised care plan — whether surgery, medication, or therapy — executed with precision.</p>
+      </div>
+      <div class="step reveal reveal-delay-4">
+        <div class="step-num">5</div>
+        <h4>Recovery &amp; Follow-up</h4>
+        <p>Dedicated rehab, discharge planning, and teleconsultation follow-ups ensure lasting recovery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     09 · TESTIMONIALS
+     ══════════════════════════════════════════════════════ -->
+<section id="testimonials">
+  <div class="container section-pad">
+    <div class="testi-header">
+      <p class="label reveal">Patient Stories</p>
+      <h2 class="h2 reveal reveal-delay-1">Lives <span class="gold-text">Transformed</span></h2>
+    </div>
+    <div class="testi-grid">
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="testi-text">"After suffering a severe stroke, I was brought to Prakasam Super Speciality Hospital at midnight. The neurology team responded in minutes. Today I walk and speak normally — a miracle that only their skill made possible."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">SR</div>
+          <div>
+            <div class="testi-name">Suresh Raju</div>
+            <div class="testi-loc">Ongole, Andhra Pradesh</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal reveal-delay-1">
+        <div class="testi-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="testi-text">"Dr. Prasad Rao diagnosed a rare liver condition that three hospitals had missed. The entire gastro team here is phenomenal. The hospital is immaculate and the nurses genuinely care for you."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">PD</div>
+          <div>
+            <div class="testi-name">Padmavathi Devi</div>
+            <div class="testi-loc">Chirala, Andhra Pradesh</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal reveal-delay-2">
+        <div class="testi-stars">
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+          <svg width="14" height="14" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+        </div>
+        <p class="testi-text">"My knee replacement was done with such precision that I was walking within two days. The rehab team is outstanding. This is not a district hospital — it is a world-class facility."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">VK</div>
+          <div>
+            <div class="testi-name">Venkat Krishnamurthy</div>
+            <div class="testi-loc">Nellore, Andhra Pradesh</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     10 · EMERGENCY CTA
+     ══════════════════════════════════════════════════════ -->
+<section id="emergency">
+  <div class="container section-pad">
+    <div class="emg-inner">
+      <div class="emg-badge reveal">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+          <rect x="16" y="4"  width="8" height="32" rx="3" fill="#08142A"/>
+          <rect x="4"  y="16" width="32" height="8" rx="3" fill="#08142A"/>
+        </svg>
+      </div>
+      <div class="emg-text reveal reveal-delay-1">
+        <h2 class="h2">Emergency? <span class="gold-text">We Are Ready.</span></h2>
+        <p>Our trauma team, cardiac team, and neurosurgery unit are on standby 24 hours a day, 7 days a week, 365 days a year. Every second matters — call us now.</p>
+      </div>
+      <div class="emg-phones reveal reveal-delay-2">
+        <div class="emg-phone-row">
+          <div class="icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg>
+          </div>
+          <div>
+            <div class="ph-type">Landline</div>
+            <div class="ph-num">08592 – 282282</div>
+          </div>
+        </div>
+        <div class="emg-phone-row">
+          <div class="icon-wrap">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12" y2="18"/></svg>
+          </div>
+          <div>
+            <div class="ph-type">Mobile</div>
+            <div class="ph-num">77998 – 66666</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     11 · CONTACT
+     ══════════════════════════════════════════════════════ -->
+<section id="contact">
+  <div class="container section-pad">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <p class="label reveal">Get in Touch</p>
+        <h2 class="h2 reveal reveal-delay-1">Visit or <span class="gold-text">Contact Us</span></h2>
+        <p class="body-lg reveal reveal-delay-2">We are conveniently located beside the RTC Bus Stand in Ongole, making us accessible from across Prakasam district and beyond.</p>
+
+        <div class="contact-detail reveal reveal-delay-2">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <strong>Address</strong>
+            <span>Beside RTC Bus Stand, Ongole,<br/>Andhra Pradesh – 523002</span>
+          </div>
+        </div>
+        <div class="contact-detail reveal reveal-delay-3">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92v2z"/></svg></div>
+          <div>
+            <strong>Phone &amp; Mobile</strong>
+            <span>08592 – 282282 &nbsp;|&nbsp; 77998 – 66666</span>
+          </div>
+        </div>
+        <div class="contact-detail reveal reveal-delay-4">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div>
+            <strong>Working Hours</strong>
+            <span>OPD: Mon – Sat, 8 AM – 8 PM<br/>Emergency: 24 × 7 × 365</span>
+          </div>
+        </div>
+        <div class="contact-detail reveal reveal-delay-5">
+          <div class="icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div>
+            <strong>Email</strong>
+            <span>info@prakasamssh.com</span>
+          </div>
+        </div>
+
+        <!-- Accreditations -->
+        <div style="margin-top:28px;display:flex;flex-wrap:wrap;gap:10px;" class="reveal">
+          <span style="padding:6px 14px;border-radius:100px;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.2);font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);">NABH</span>
+          <span style="padding:6px 14px;border-radius:100px;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.2);font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);">ISO 9001:2015</span>
+          <span style="padding:6px 14px;border-radius:100px;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.2);font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);">Ayushman Bharat</span>
+          <span style="padding:6px 14px;border-radius:100px;background:rgba(201,168,76,0.08);border:1px solid rgba(201,168,76,0.2);font-family:'Montserrat',sans-serif;font-size:10px;font-weight:600;letter-spacing:2px;text-transform:uppercase;color:var(--gold);">YSR Aarogyasri</span>
+        </div>
+
+        <!-- Google Maps -->
+        <div class="map-wrap reveal" style="margin-top:32px;">
+          <div class="map-label">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="2" stroke-linecap="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Find Us on Map
+          </div>
+          <div class="map-frame">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1867.788160270636!2d80.03936195457005!3d15.512975881824266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4b01a7b11be293%3A0xd37e2ff407db13b0!2sPrakasam%20Super%20Speciality%20Hospital!5e1!3m2!1sen!2sin!4v1774244251189!5m2!1sen!2sin"
+              width="100%" height="280"
+              style="border:0;display:block;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Prakasam Super Speciality Hospital Location">
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form reveal reveal-delay-2">
+        <div class="form-title">Book an Appointment</div>
+        <div class="form-sub">Fill in your details and we'll confirm your slot within 2 hours.</div>
+        <form id="appointment-form" novalidate>
+          <div class="form-row">
+            <div class="form-field">
+              <label>First Name</label>
+              <input type="text" placeholder="Ravi" required/>
+            </div>
+            <div class="form-field">
+              <label>Last Name</label>
+              <input type="text" placeholder="Kumar"/>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+91 98765 43210" required/>
+            </div>
+            <div class="form-field">
+              <label>Age</label>
+              <input type="number" placeholder="35" min="0" max="120"/>
+            </div>
+          </div>
+          <div class="form-field">
+            <label>Department</label>
+            <select>
+              <option value="">Select Department…</option>
+              <option>General Medicine – Dr. Madala Hanumantha Rao</option>
+              <option>General Surgery – Dr. Banda Rakesh</option>
+              <option>Orthopaedics – Dr. R. Amarnath Reddy</option>
+              <option>Dental & Implants – Dr. CH. Chaitanya Sree</option>
+              <option>Radiation Oncology – Dr. D. Shankara Mahadev</option>
+              <option>Physiotherapy – Dr. K. Anjaneya Kumar</option>
+              <option>Neurology – Dr. Koonam Sanjeeva Reddy</option>
+              <option>Gastroenterology – Dr. K. Vishnuvardhan</option>
+              <option>Urology – Dr. S.V. Krishna Rao</option>
+              <option>Cardiology</option>
+              <option>Oncology</option>
+              <option>Critical Care / ICU</option>
+              <option>Nephrology</option>
+              <option>Pulmonology</option>
+              <option>ENT</option>
+              <option>Emergency</option>
+            </select>
+          </div>
+          <div class="form-field">
+            <label>Preferred Date</label>
+            <input type="date"/>
+          </div>
+          <div class="form-field">
+            <label>Brief Concern (optional)</label>
+            <textarea placeholder="Describe your symptoms or the reason for your visit…"></textarea>
+          </div>
+          <button type="submit" class="btn-submit">Book an Appointment</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════════
+     12 · FOOTER
+     ══════════════════════════════════════════════════════ -->
+<footer id="footer">
+  <div class="container">
+    <div class="footer-top">
+
+      <div class="footer-brand">
+        <div class="nav-logo" style="margin-bottom:16px;">
+          <div class="logo-icon">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+              <rect x="8.5" y="1"  width="5" height="20" rx="2" fill="url(#fg)"/>
+              <rect x="1"   y="8.5" width="20" height="5" rx="2" fill="url(#fg)"/>
+              <defs><linearGradient id="fg" x1="0" y1="0" x2="22" y2="22"><stop offset="0%" stop-color="#E8C96D"/><stop offset="100%" stop-color="#C9A84C"/></linearGradient></defs>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <strong>PRAKASAM SUPER SPECIALITY HOSPITAL</strong>
+            <span>Ongole, Andhra Pradesh</span>
+          </div>
+        </div>
+        <p class="footer-tagline">"Caring for Life, Every Moment —<br/>The Pulse of Healthcare in Ongole."</p>
+        <div class="footer-social">
+          <div class="social-btn" title="Facebook">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </div>
+          <div class="social-btn" title="Twitter / X">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+          </div>
+          <div class="social-btn" title="YouTube">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.97C18.88 4 12 4 12 4s-6.88 0-8.59.45A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.58C5.12 20 12 20 12 20s6.88 0 8.59-.45a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" stroke="rgba(255,255,255,0.5)" fill="rgba(255,255,255,0.5)"/></svg>
+          </div>
+          <div class="social-btn" title="WhatsApp">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h5>Departments</h5>
+        <ul>
+          <li><a href="#doctors">General Medicine</a></li>
+          <li><a href="#doctors">General Surgery</a></li>
+          <li><a href="#doctors">Orthopaedics</a></li>
+          <li><a href="#doctors">Neurology</a></li>
+          <li><a href="#doctors">Gastroenterology</a></li>
+          <li><a href="#doctors">Urology</a></li>
+          <li><a href="#doctors">Oncology &amp; Radiation</a></li>
+          <li><a href="#doctors">Dental &amp; Implants</a></li>
+          <li><a href="#doctors">Physiotherapy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Services</h5>
+        <ul>
+          <li><a href="#facilities">Advanced Imaging</a></li>
+          <li><a href="#facilities">Level III ICU</a></li>
+          <li><a href="#facilities">Robotic Surgery</a></li>
+          <li><a href="#facilities">Blood Bank</a></li>
+          <li><a href="#facilities">24-Hour Pharmacy</a></li>
+          <li><a href="#journey">Patient Journey</a></li>
+          <li><a href="#contact">Online Appointment</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="tel:08592282282">08592 – 282282</a></li>
+          <li><a href="tel:7799866666">77998 – 66666</a></li>
+          <li><a href="mailto:info@prakasamssh.com">info@prakasamssh.com</a></li>
+        </ul>
+        <div style="margin-top:20px;font-size:12px;font-weight:300;color:rgba(255,255,255,0.35);line-height:1.7;">
+          Beside RTC Bus Stand,<br/>
+          Ongole, A.P. – 523002
+        </div>
+      </div>
+
+    </div>
+
+    <div class="gold-line"></div>
+
+    <div class="footer-bottom">
+      <p>© 2025 PRAKASAM SUPER SPECIALITY HOSPITAL. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Use</a>
+        <a href="#">Disclaimer</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button id="back-top" aria-label="Back to top">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#08142A" stroke-width="2.5" stroke-linecap="round"><polyline points="18 15 12 9 6 15"/></svg>
+</button>
+
+<script src="main.js"></script>
+</body>
+</html>
