@@ -1824,8 +1824,10 @@ section {
   .nav-logo .logo-text span   { display: none; }
   .nav-logo .logo-text        { max-width: 150px; }
   .btn-emergency              { padding: 8px 14px; font-size: 10px; gap: 6px; }
+  .hero-scroll-hint { display: none; }
   .about-grid    { grid-template-columns: 1fr; }
   .about-visual  { order: -1; }
+  .about-img-frame { aspect-ratio: 16/9; max-height: 260px; }
   .about-badge   { bottom: 10px; right: 10px; width:100px; height:100px; }
   .about-badge .big { font-size:24px; }
   .contact-grid  { grid-template-columns: 1fr; }
@@ -1849,16 +1851,28 @@ section {
   .btn-primary, .btn-outline { width: 100%; justify-content: center; }
   .journey-steps { grid-template-columns: 1fr; }
   .testi-grid    { grid-template-columns: 1fr; }
-  /* Single column stats on phones for readability */
   .stats-grid    { grid-template-columns: 1fr 1fr; }
   .stat-num      { font-size: clamp(28px,8vw,40px); }
   .nav-logo .logo-text strong { font-size: 9px; }
+  /* Shrink hero orbs to prevent horizontal scroll */
+  .hero-orb-1    { width: 280px; height: 280px; right: -80px; top: -60px; }
+  .hero-orb-2    { width: 200px; height: 200px; left: -60px; }
+  /* About badge smaller */
+  .about-badge   { width: 80px; height: 80px; bottom: 8px; right: 8px; }
+  .about-badge .big { font-size: 18px; }
+  .about-badge .sm  { font-size: 8px; }
+  /* Grids: smaller minmax on tiny phones */
+  .dept-grid     { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+  .doctors-grid  { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
 }
 @media (max-width: 360px) {
   #nav { padding: 0 10px; }
   .nav-logo .logo-text { max-width: 110px; }
   .btn-emergency .pulse-dot { display: none; }
   .btn-emergency { padding: 7px 10px; font-size: 9px; }
+  .stats-grid    { grid-template-columns: 1fr; }
+  .hero-orb-1    { width: 200px; height: 200px; right: -60px; }
+  .hero-orb-2    { width: 150px; height: 150px; left: -40px; }
 }
 
 /* ── TOUCH DEVICES ────────────────────────────────────── */
