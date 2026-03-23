@@ -25,7 +25,7 @@
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
-html { scroll-behavior: smooth; font-size: 16px; }
+html { scroll-behavior: smooth; font-size: 16px; scroll-padding-top: 72px; }
 
 body {
   font-family: 'Inter', sans-serif;
@@ -261,6 +261,7 @@ ul { list-style: none; }
 section {
   position: relative;
   overflow: hidden;
+  scroll-margin-top: 72px;
 }
 .container {
   width: 100%;
@@ -1842,7 +1843,14 @@ section {
   .stats-grid    { grid-template-columns: 1fr 1fr; }
   .stat-num      { font-size: clamp(28px,8vw,40px); }
   .nav-logo .logo-text strong { font-size: 10px; }
-  .btn-emergency { font-size: 10px; padding: 8px 14px; }
+  .nav-logo .logo-text span   { display: none; }
+  .btn-emergency { font-size: 10px; padding: 8px 10px; }
+}
+@media (max-width: 360px) {
+  /* On very small phones hide the emergency label, keep just the number */
+  .btn-emergency .pulse-dot { display: none; }
+  #nav { padding: 0 12px; }
+  .nav-logo .logo-text { max-width: 130px; }
 }
 
 /* ── TOUCH DEVICES ────────────────────────────────────── */
